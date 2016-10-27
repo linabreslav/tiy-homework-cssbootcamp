@@ -1,0 +1,20 @@
+/*navbar background*/
+.navbar-default {
+  background-color: #39474e;
+  height: 100px;
+}
+
+/*left navbar text*/
+.navbar-default .navbar-nav li a{
+  color: white;
+}
+
+/*right navbar text*/
+.divbarrighttext {
+  color: blue;
+}
+/*
+the iron yard logo in navbar*/
+.navbar-header img{
+  height: 70px;
+}
