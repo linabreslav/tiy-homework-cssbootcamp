@@ -66,9 +66,44 @@ top: 25px;
 /*styling newslogos container*/
 .newslogos {
   background-color: #eeeeee;
+  padding: 0px 15%;
 }
 
 .newslogos img {
-  height: 90px;
+  height: 100px;
   width: auto;
+}
+
+/*styling information container*/
+.infosection {
+  margin: 5% 7%;
+}
+
+.infosection p {
+  color: #727d84;
+  padding: 10px;
+}
+
+.infosection .desc {
+  font-size: 1.7rem;
+}
+
+/*target bold top text of form*/
+.header {
+  font-family: 'PT Serif', serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 2.5rem;
+  color: #727d84;
+}
+
+/*target first form*/
+.formtop {
+  background-color: #ebebeb;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.formtop .title {
+  font-weight: bold;
 }
