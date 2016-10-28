@@ -107,3 +107,31 @@ top: 25px;
 .formtop .title {
   font-weight: bold;
 }
+
+.greymiddle {
+  background-color: #ebebeb;
+}
+
+.secondmiddlehead {
+  font-family: 'PT Serif', serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 2.8rem;
+  color: #727d84;
+  text-align: center;
+  padding: 20px;
+  padding-top: 40px;
+}
+
+.secondmiddlecontent{
+  text-align: center;
+  font-size: 1.7rem;
+  color: #727d84;
+  padding-left:350px;
+  padding-right:350px;
+}
+
+/*we want to add outline columns and then just add text normally(2 2 2 2 2) */
+.courselogos {
+  text-align: center;
+}
