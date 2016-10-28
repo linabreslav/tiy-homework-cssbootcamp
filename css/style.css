@@ -4,17 +4,25 @@
   height: 100px;
 }
 
-/*left navbar text*/
-.navbar-default .navbar-nav li a{
-  color: white;
+/*left side buttons*/
+.navbar-default .navbar-nav li .left{
+  position: relative;
+  left: 100px;
 }
 
-/*right navbar text*/
-.divbarrighttext {
-  color: blue;
+.navbar-default .navbar-nav .right{
+  position: relative;
+  right: 100px;
 }
-/*
-the iron yard logo in navbar*/
-.navbar-header img{
+
+.navbar-default .navbar-nav .left {
+color: white;
+font-size: 1.7rem;
+}
+
+.nav li a img {
   height: 70px;
+  width: auto;
+  position: relative;
+  left: 100px;
 }
