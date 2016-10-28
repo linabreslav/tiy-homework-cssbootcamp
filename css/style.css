@@ -1,28 +1,74 @@
-/*navbar background*/
+body {
+  margin: 0px;
+  border: 0px;
+  padding: 0px;
+}
+
+.navbar {
+  border: 0px;
+}
+/*targets the entire navbar background*/
 .navbar-default {
   background-color: #39474e;
   height: 100px;
+  margin: 0px;
+  padding: 0px;
 }
 
-/*left side buttons*/
+/*targets the entire left side of the navbar */
 .navbar-default .navbar-nav li .left{
   position: relative;
   left: 100px;
 }
 
-.navbar-default .navbar-nav .right{
+/*targets the entire right side of the navbar*/
+.navbar-default .navbar-nav li .right{
   position: relative;
   right: 100px;
+  top: 25px;
 }
 
+/* more granular: targets the specific buttons in the left */
 .navbar-default .navbar-nav .left {
 color: white;
 font-size: 1.7rem;
+position: relative;
+top: 25px;
 }
 
+/*targets the iron yard logo in the nav bar*/
 .nav li a img {
   height: 70px;
   width: auto;
   position: relative;
   left: 100px;
+}
+
+/*hero styling*/
+.hero {
+  background-image: url(../images/herobackgroundimg.jpg);
+  height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  postion: relative;
+}
+
+/*text in hero styling and especially positioning*/
+.hero p {
+  color: white;
+  font-size: 6rem;
+  font-family: 'PT Serif', bolder, serif;
+  padding-top: 200px;
+  padding-left: 150px;
+}
+
+/*styling newslogos container*/
+.newslogos {
+  background-color: #eeeeee;
+}
+
+.newslogos img {
+  height: 90px;
+  width: auto;
 }
