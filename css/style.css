@@ -44,6 +44,16 @@ top: 25px;
   left: 100px;
 }
 
+/*nav bar button styling*/
+.topbutton {
+  width: 40px;
+  border-style: none;
+  font-size: 1.7rem;
+  border-radius: none;
+  width: 40px;
+  height: 40px;
+}
+
 /*hero styling*/
 .hero {
   background-image: url(../images/herobackgroundimg.jpg);
@@ -100,12 +110,26 @@ top: 25px;
 /*target first form*/
 .formtop {
   background-color: #ebebeb;
-  padding: 30px;
   border-radius: 10px;
+  padding: 15px;
+  padding-bottom: 150px;
+  width: 30%;
 }
 
 .formtop .title {
   font-weight: bold;
+}
+
+.formbutton{
+    background-color: #6fbbb7;
+    border-style: outset;
+    color: white;
+    padding: 12px 82px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 6px;
 }
 
 .greymiddle {
@@ -159,4 +183,6 @@ top: 25px;
 
 .courselogos .interface{
   color: #35a0ad;
+
+
 }
