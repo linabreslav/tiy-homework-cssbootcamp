@@ -134,6 +134,7 @@ top: 25px;
 
 .greymiddle {
   background-color: #ebebeb;
+  padding-bottom: 70px;
 }
 
 .secondmiddlehead {
@@ -183,6 +184,50 @@ top: 25px;
 
 .courselogos .interface{
   color: #35a0ad;
+}
+
+/*employer section styling*/
+.employersection{
+background-image: url(../images/employersimage.jpg);
+background-position: top;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.employertitle {
+  font-family: 'PT Serif', serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 2.8rem;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  padding-top: 40px;
+}
+
+.employertext {
+  text-align: center;
+  font-size: 1.7rem;
+  color: white;
+  padding-left:350px;
+  padding-right:350px;
+}
+
+.employlogo {
+  margin: 0 auto;
+  padding: 5%;
+}
+
+.logorows {
+  margin: 0% 15%;
+}
+
+.callyouform, .emailyouform{
+  width: 90%;
+}
 
 
+footer {
+  height: 50px;
+  background-color: #39474e;
 }
