@@ -80,7 +80,7 @@ top: 25px;
 }
 
 .newslogos img {
-  height: 100px;
+  height: 70px;
   width: auto;
 }
 
@@ -222,12 +222,109 @@ background-size: cover;
   margin: 0% 15%;
 }
 
-.callyouform, .emailyouform{
-  width: 90%;
+/*target second form*/
+.formbottom{
+  background-color: #ebebeb;
+  border-radius: 10px;
+  padding: 15px;
+  padding-bottom: 150px;
+  width: 80%;
+  margin: 50px;
 }
 
+.questionsfirsttitle{
+  text-align: left;
+  text-transform: uppercase;
+  color: #727d84;
+  font-size: 2.2rem;
+  font-style: serif;
+  padding: 20px;
+  padding-top: 50px;
+  padding-left: 100px;
+}
+
+.questionssecondtitle{
+  font-family: 'PT Serif', serif;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 2.8rem;
+  color: #727d84;
+  text-align: left;
+  padding: 20px;
+  padding-left: 100px;
+}
+
+.questionspar{
+  text-align: left;
+  font-size: 1.7rem;
+  color: #727d84;
+  padding: 20px;
+  padding-left: 100px;
+}
+
+.formbutton2 {
+  background-color: #6fbbb7;
+  border-style: outset;
+  color: white;
+  padding: 12px 60px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 6px;
+}
 
 footer {
   height: 50px;
   background-color: #39474e;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  /*targets the entire left side of the navbar */
+  .navbar-default .navbar-nav li .left{
+    visibility: hidden;
+  }
+
+  /*targets the entire right side of the navbar*/
+  .navbar-default .navbar-nav li .right{
+    visibility: hidden;
+  }
+
+  .newslogos img {
+    float: left;
+  }
+
+  .formtop {
+    background-color: #ebebeb;
+    border-radius: 10px;
+    padding: 15px;
+    padding-bottom: 150px;
+    width: 60%;
+  }
+
+
+  .secondmiddlehead {
+    font-family: 'PT Serif', serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2.8rem;
+    color: #727d84;
+    text-align: center;
+  }
+
+  .secondmiddlecontent{
+    text-align: center;
+    font-size: 1.7rem;
+    color: #727d84;
+  }
+
+  /*we want to add outline columns and then just add text normally(2 2 2 2 2) */
+  .courselogos {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-family: serif;
+    font-size: 1.8rem;
+    float: left;
+  }
 }
