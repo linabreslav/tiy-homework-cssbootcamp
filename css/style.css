@@ -194,6 +194,7 @@ background-repeat: no-repeat;
 background-size: cover;
 }
 
+
 .employertitle {
   font-family: 'PT Serif', serif;
   font-style: italic;
@@ -302,6 +303,9 @@ footer {
     width: 60%;
   }
 
+  .greymiddle {
+    background-color: #ebebeb;
+  }
 
   .secondmiddlehead {
     font-family: 'PT Serif', serif;
@@ -313,9 +317,9 @@ footer {
   }
 
   .secondmiddlecontent{
-    text-align: center;
     font-size: 1.7rem;
     color: #727d84;
+    padding: 0;
   }
 
   /*we want to add outline columns and then just add text normally(2 2 2 2 2) */
@@ -325,6 +329,117 @@ footer {
     font-weight: bolder;
     font-family: serif;
     font-size: 1.8rem;
-    float: left;
   }
+
+  /*employer section styling*/
+  .employersection {
+    background-image: url(../images/employersimage.jpg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+  .employertitle {
+    font-family: 'PT Serif', serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2.8rem;
+    color: white;;
+  }
+
+  .employertext {
+    font-size: 1.7rem;
+    color: white;
+    padding: 0;
+  }
+
+}
+
+@media (max-width: 767px) {
+
+
+  .navbar-default .navbar-nav li .left{
+    visibility: hidden;
+  }
+
+  /*targets the entire right side of the navbar*/
+  .navbar-default .navbar-nav li .right{
+    visibility: hidden;
+  }
+
+  /*hero styling*/
+  .hero {
+    background-image: url(../images/herobackgroundimg.jpg);
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    postion: relative;
+  }
+
+  .formtop {
+    background-color: #ebebeb;
+    border-radius: 10px;
+    padding: 15px;
+    padding-bottom: 150px;
+    width: 100%;
+  }
+
+  .secondmiddlecontent{
+    font-size: 1.7rem;
+    color: #727d84;
+    padding: 0;
+    text-align: left;
+    padding: 5px;
+  }
+
+  .employertext {
+    font-size: 1.7rem;
+    color: white;
+    padding: 0;
+    text-align: center;
+  }
+
+  .questionsfirsttitle{
+    text-align: left;
+    text-transform: uppercase;
+    color: #727d84;
+    font-size: 2.2rem;
+    font-style: serif;
+    padding: 0x;
+    padding-top: 0px;
+    padding-left: 0px;
+  }
+
+  .questionssecondtitle{
+    font-family: 'PT Serif', serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 2.8rem;
+    color: #727d84;
+    text-align: left;
+    padding: 0px;
+    padding-left: 0px;
+  }
+
+  .questionspar{
+    text-align: left;
+    font-size: 1.7rem;
+    color: #727d84;
+    padding: 0px;
+    padding-left: 0px;
+  }
+
+  .hero p {
+    color: white;
+    font-size: 3rem;
+    font-family: 'PT Serif', bolder, serif;
+    text-align: left;
+    padding: 0px;
+    padding-top: 70px;
+    padding-left: 70px;
+    padding-right: 50px;
+  }
+
 }
